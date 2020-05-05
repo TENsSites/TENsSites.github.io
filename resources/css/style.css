@@ -100,7 +100,7 @@ h2 {
   width: 100%;
   height: 3.5rem;
   z-index: 10;
-  background-color: cadetblue;
+  background-color: #365959;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
@@ -225,7 +225,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: cadetblue;
+  background-color: #365959;
   width: 100%;
   height: 2.5rem;
 }
