@@ -46,6 +46,10 @@ and style it a margin */
   overflow: hidden;
 }
 
+.img-container img {
+  margin: auto;
+}
+
 img, video {
   max-width: 100%;
   height: auto;
@@ -53,10 +57,10 @@ img, video {
 }
 
 /* make links large clickable boxes 
-(44px x 44px minimum target size required) */
+(44px x 44px minimum clickable target size required) */
 a {
   display: block;
-  padding: 1rem .55rem;
+  padding: .88rem .55rem;
   text-decoration: none;
 }
 /* any-pointer and any-hover operate
@@ -72,11 +76,6 @@ instead of a:hover and a:focus
     text-decoration: none;
   }
 }
-
-
-
-
-
 /* ----------
 end universal styles---------- */
 
@@ -92,7 +91,7 @@ h2 {
   font-weight: 600;
 }
 
-/* NAV-BAR */
+/* nav-bar */
 
 .nav-bar {
   display: flex;
@@ -133,15 +132,15 @@ h2 {
   color: white;
 }
 
-/* ----- */
+/* ---------------------------------- */
 
-/* intro-banner > intro-text */
+/* intro-banner */
 
 .intro-banner {
   width: 100%;
   height: 17rem;
   background-color: white;
-  background-image: url("../images/glasses-bg.png");
+  background-image: url("../images/intro-banner.png");
   position: relative;
   background-position: 20%;
   background-repeat: no-repeat;
@@ -162,15 +161,9 @@ h2 {
   font-weight: bold;
 }
 
-/* ----- */
+/* -------------------------------- */
 
-/* FEATURED */
-
-/* #features {
-  height: 3rem;
-  width: 100%;
-  border: 1px blue solid;
-} */
+/* featured "three" */
 
 .featured {
   display: flex;
@@ -184,18 +177,8 @@ h2 {
   margin: 0 auto;
 }
 
-@media only screen and (min-width: 700px) {
-  .featured {
-    justify-content: center;
-    align-items: baseline;
-  }
-  .feat-box-figure {
-    margin: 0 3rem;
-  }
-  .feat-box {
-    display: flex;
-    flex-direction: column;
-  }
+.feat-box-figure img {
+  margin: auto;
 }
 
 .feat {
@@ -236,6 +219,10 @@ h2 {
   width: 90%;
 }
 
+.launch-call {
+  padding-left: 0;
+}
+
 /* --------------------------------------- */
 
 /* footer */
@@ -267,11 +254,12 @@ footer small {
   }
 }
 
-@media only screen and (min-width: 440px) {
-  p, small {
-    font-size: 1.5rem;
+@media (min-width: 450px) {
+  .intro-banner {
+    background-image: url("../images/intro-banner-medium.png");
   }
 }
+
 
 @media only screen and (min-width: 700px) {
   .large-viewport {
@@ -294,10 +282,20 @@ footer small {
     width: auto;
   }
   .featured {
-    /* margin: 3rem auto; */
+    justify-content: center;
+    align-items: baseline;
     flex-direction: row;
-    /* height: 8rem; */
   }
+
+  .feat-box-figure {
+    margin: 0 3rem;
+  }
+
+  .feat-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .feat, .info-text, footer small {
     font-size: 1rem;
   }
@@ -327,7 +325,7 @@ footer small {
   }
 }
 
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 960px) {
   .nav-bar {
     max-width: 90%;
     position: absolute;
@@ -339,6 +337,8 @@ footer small {
   }
   .intro-banner {
     height: 30rem;
+    background-image: url("../images/intro-banner-large.png");
+
   }
   .intro-text {
     padding: 1.5rem 5rem;
@@ -368,18 +368,19 @@ footer small {
 
 @media only screen and (min-width: 3000px) {
   html {
-    font-size: 22px;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 4000px) {
   html {
-    font-size: 23px;
+    font-size: 50px;
   }
 }
 
 @media only screen and (min-width: 5000px) {
   html {
-    font-size: 24px;
+    font-size: 60px;
   }
+
 }
