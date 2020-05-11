@@ -1,12 +1,15 @@
-# Stylish Lenses | TENsSites.github.io
+# TENsSites.github.io
 https://tenssites.github.io/ is the URL of my "Stylish Lenses" example site
 
 __________________________
-"Stylish Lenses" created as an [example of this scenario]:
+"Stylish Lenses" created as an example of this scenario:
 
 (1.) Customer wants this design exactly.
-(to help make their site the best it can be, I give customers simple & easy advice)
-(2.) Recommendations given. Customer didn't want any changes to the design.
+
+(To help make their site the best it can be, I give customers simple & easy advice)
+
+(2.) Recommendations given.
+Customer didn't want any changes to the design.
 __________________________
 
 My recommendation:
