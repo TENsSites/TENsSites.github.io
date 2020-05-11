@@ -23,13 +23,13 @@ sibling children will have top margin added
 this way don't have to select each element
 and style it a margin */
 
-.flow {
+/* .flow {
   --flow-space: 1em;
 }
 
 .flow>*+* {
   margin-top: var(--flow-space);
-}
+} */
 
 /* no display - (Large-viewport required) */
 
@@ -57,7 +57,8 @@ img, video {
 }
 
 /* make links large clickable boxes 
-(44px x 44px minimum clickable target size required) */
+(44px x 44px minimum clickable target size required)
+ */
 a {
   display: block;
   padding: .88rem .55rem;
