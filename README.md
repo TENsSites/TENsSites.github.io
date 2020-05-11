@@ -30,7 +30,6 @@ My recommendation:
 
 
 
-
 _____________________________________
   Stylish Lenses' contact information, people
  and places are fictional and not created
