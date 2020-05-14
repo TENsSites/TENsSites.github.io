@@ -5,9 +5,6 @@ __________________________
 "Stylish Lenses" created as an example of this scenario:
 
 (1.) Customer wants this design exactly.
-
-(To help make their site the best it can be, I give customers simple & easy advice)
-
 (2.) Recommendations given.
 Customer didn't want any changes to the design.
 __________________________
