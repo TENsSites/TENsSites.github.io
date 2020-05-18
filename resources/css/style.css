@@ -17,19 +17,6 @@ body {
   width: 100%;
 }
 
-/* add class="flow" to element
-sibling children will have top margin added
-this way don't have to select each element
-and style it a margin */
-
-/* .flow {
-  --flow-space: 1em;
-}
-
-.flow>*+* {
-  margin-top: var(--flow-space);
-} */
-
 /* no display - (Large-viewport required) */
 .large-viewport {
   display: none;
@@ -38,8 +25,6 @@ and style it a margin */
 /* image & video scaling
 (images & videos wrapped in .img-container) */
 .img-container {
-  /* width: 50%; Example */
-  /* height: 200px; Example */
   overflow: hidden;
 }
 img, video {
@@ -53,7 +38,7 @@ img, video {
 }
 
 /* make links large clickable boxes
-(44px x 44px minimum clickable target size required) */
+( 44px x 44px minimum clickable target size required ) */
 a {
   display: block;
   padding: .88rem .55rem;
@@ -62,9 +47,7 @@ a {
 
 /* any-pointer and any-hover operate
  on the union of all pointer devices rather than
- just the primary pointer device.
-instead of a:hover and a:focus
- use any-hover, any-pointer */
+ just the primary pointer device */
 @media (any-hover: hover) {
   a:hover, a:focus {
     text-decoration: underline;
@@ -75,10 +58,7 @@ instead of a:hover and a:focus
 }
 
 /* ---------- end universal styles ---------- */
-
-/* ---------------------------------------- */
-/* ---------------------------------------- */
-/* ---------------------------------------- */
+/* ---------------------------------------------------------------------- */
 
 body {
   line-height: 1.4;
@@ -128,7 +108,6 @@ h2 {
 .nav-bar a {
   color: hsl(0, 0%, 100%);
 }
-
 /* ---------------------------------------- */
 
 /* intro-banner */
@@ -157,10 +136,9 @@ h2 {
   line-height: 1.2;
   font-weight: bold;
 }
-
 /* ---------------------------------------- */
 
-/* featured "three" */
+/* featured */
 
 .featured {
   display: flex;
@@ -191,7 +169,6 @@ h2 {
 .ruler, .truck {
   width: 5rem;
 }
-
 /* ---------------------------------------- */
 
 /* main */
@@ -219,7 +196,6 @@ h2 {
 .launch-call {
   padding-left: 0;
 }
-
 /* ---------------------------------------- */
 
 /* footer */
@@ -244,9 +220,9 @@ footer small {
   width: auto;
   height: 1.5rem;
 }
-
 /* ---------------------------------------- */
 
+/* media queries */
 @media only screen and (min-width: 400px) {
   .logo-icon {
     display: block;
