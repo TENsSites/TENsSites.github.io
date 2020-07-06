@@ -193,6 +193,11 @@ h2 {
   width: 90%;
 }
 
+.phone-read-easily {
+  font-weight: bold;
+  margin: 0 .15rem;
+}
+
 .launch-call {
   padding-left: 0;
 }
